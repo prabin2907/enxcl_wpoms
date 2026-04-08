@@ -61,7 +61,8 @@ public class EmployeeService implements IEmployeeService{
 
     @Override
     public ResponseEntity<EmployeeMaster> getOneEmployee(int id) {
-        System.out.println("hello world");
+        System.out.println("hello world") ;
+
         var getEmp=_employeeMasterRepository.findById(id).get();
         return ResponseEntity.ok(getEmp);
     }
