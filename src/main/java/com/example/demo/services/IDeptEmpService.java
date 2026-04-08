@@ -11,4 +11,5 @@ public interface IDeptEmpService {
     public ResponseEntity<List<DeptEmpMaster>> getDetails(int id);
     public ResponseEntity<List<Object[]>> getEmployeesByDeptName(String deptName);
     public ResponseEntity<List<Object[]>> getEmployeeWithDepartmentsByName(String empName); 
+    public ResponseEntity<List<Object[]>> getEmployeeWithDepartmentsByNames(String empName);
 }
