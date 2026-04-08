@@ -61,7 +61,12 @@ public class EmployeeService implements IEmployeeService{
 
     @Override
     public ResponseEntity<EmployeeMaster> getOneEmployee(int id) {
+        System.out.println("Hello");
         var getEmp=_employeeMasterRepository.findById(id).get();
         return ResponseEntity.ok(getEmp);
+    }
+
+    public void prabinFunction(){
+        System.out.println("This is Prabin R's function");
     }
 }
