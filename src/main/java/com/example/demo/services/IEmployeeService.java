@@ -16,4 +16,7 @@ public interface IEmployeeService {
     public String delEmployee(int id);
     public ResponseEntity<EmployeeMaster> getOneEmployee(int id);
 
+    
+
+
 }
