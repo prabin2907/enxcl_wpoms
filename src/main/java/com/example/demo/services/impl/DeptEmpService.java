@@ -41,6 +41,10 @@ public class DeptEmpService implements IDeptEmpService{
         return ResponseEntity.ok(results);
         
     }
-    
-  
+
+    public void display()
+    {
+        System.out.println("Hello World");
+    }
+
 }
