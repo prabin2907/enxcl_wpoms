@@ -39,4 +39,9 @@ public class DeptEmpService implements IDeptEmpService{
         
     }
 
+    public void display()
+    {
+        System.out.println("Welcome");
+    }
+
 }
